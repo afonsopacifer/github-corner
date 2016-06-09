@@ -45,6 +45,12 @@ Attribute  | Type        | Default             | Description
 `fill`   | *String*    | `#000`    | Sets the octocat color.
 `url`     | *String*    | `#`   | Defines the destination url.
 
+**Example:**
+
+```html
+<github-corner fill="#92e600" color="#fff" url="my-url"></github-corner>
+```
+
 ## Development
 
 1. Install [Bower](http://bower.io/) & [Polymer-CLI](https://www.polymer-project.org/1.0/docs/tools/polymer-cli):
