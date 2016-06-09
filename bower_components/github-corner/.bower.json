@@ -1,0 +1,41 @@
+{
+  "name": "github-corner",
+  "version": "0.0.1",
+  "description": "A Polymer element for github corner",
+  "authors": [
+    "Afonso Pacifer <afonsopacifer@live.com>"
+  ],
+  "license": "MIT",
+  "main": "github-corner.html",
+  "keywords": [
+    "polymer",
+    "github",
+    "github-corner",
+    "web-components"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+    "web-component-tester": "^4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  },
+  "homepage": "https://github.com/afonsopacifer/github-corner",
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "933113127b1d17a0d7320c19c00c6656e415211c"
+  },
+  "_source": "https://github.com/afonsopacifer/github-corner.git",
+  "_target": "^0.0.1",
+  "_originalSource": "github-corner",
+  "_direct": true
+}
