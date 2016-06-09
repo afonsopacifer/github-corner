@@ -1,6 +1,9 @@
 # &lt;github-corner&gt;
 
+[![Dependency Status](https://www.versioneye.com/user/projects/575910ef7757a0004a1de85d/badge.svg?style=flat)](https://www.versioneye.com/user/projects/575910ef7757a0004a1de85d)
+
 > :octocat: A Polymer element for github corner.
+
 
 ## Demo
 
