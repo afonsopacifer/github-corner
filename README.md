@@ -41,9 +41,9 @@ $ bower install github-corner/github-corner --save
 
 Attribute  | Type        | Default             | Description
 ---        | ---         | ---                 | ---
-`color` | *String*   | `#fff`             | ?
-`fill`   | *String*    | `#000`    | ?
-`url`     | *String*    | `#`   | ?
+`color` | *String*   | `#fff`             | Sets the corner color.
+`fill`   | *String*    | `#000`    | Sets the octocat color.
+`url`     | *String*    | `#`   | Defines the destination url.
 
 ## Development
 
