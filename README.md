@@ -14,7 +14,7 @@
 Install the component using [Bower](http://bower.io/):
 
 ```sh
-$ bower install github-corner/github-corner --save
+$ bower install github-corner --save
 ```
 
 ## Usage
