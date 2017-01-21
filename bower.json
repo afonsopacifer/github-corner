@@ -7,12 +7,18 @@
   ],
   "license": "MIT",
   "main": "github-corner.html",
+  "homepage": "https://github.com/afonsopacifer/github-corner",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/afonsopacifer/github-corner"
+  },
   "keywords": [
       "polymer",
       "github",
       "github-corner",
       "web-components"
   ],
+"license": "https://github.com/afonsopacifer/github-corner/blob/master/LICENSE.md",
   "ignore": [
       "**/.*",
       "node_modules",
@@ -22,9 +28,6 @@
     "polymer": "Polymer/polymer#^1.5.0"
   },
   "devDependencies": {
-    "iron-component-page": "PolymerElements/iron-component-page#^1.1.6",
-    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.2.3",
-    "web-component-tester": "^4.0.0",
-    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.22"
+    "web-component-tester": "^5.0.0"
   }
 }
