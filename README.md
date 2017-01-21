@@ -116,7 +116,7 @@ $ [sudo] npm install -g web-component-tester
 Run tests:
 
 ```sh
-$ wct
+$ wct --skip-plugin sauce
 ```
 
 **Quick tip**: For run the [selenium driver for safari](https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-safari-driver), you need follow [some instructions](https://webkit.org/blog/6900/webdriver-support-in-safari-10/).
