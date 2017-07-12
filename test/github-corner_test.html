@@ -14,20 +14,30 @@
   </head>
   <body>
 
-    <test-fixture id="github-corner">
+    <test-fixture id="BasicTestFixture">
       <template>
         <github-corner></github-corner>
       </template>
     </test-fixture>
 
+    <test-fixture id="HrefPropertyTestFixture">
+      <template>
+        <github-corner href="https://github.com/afonsopacifer/github-corner"></github-corner>
+      </template>
+    </test-fixture>
+
     <script>
       suite('<github-corner>', function() {
-        var element;
-        setup(function() {
-          element = fixture('github-corner');
+
+        test('instantiating the element with default properties works', function() {
+          var element = fixture('BasicTestFixture');
+          assert.equal(element.href, '#');
         });
-        test('instantiating the element works', function() {
-          assert.equal(element.is, 'github-corner');
+
+        test('setting a property on the element works', function() {
+          // Create a test fixture
+          var element = fixture('HrefPropertyTestFixture');
+          assert.equal(element.href, 'https://github.com/afonsopacifer/github-corner');
         });
       });
     </script>

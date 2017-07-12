@@ -1,32 +1,15 @@
-<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../polymer/polymer-element.html">
 
 <dom-module id="github-corner">
   <template>
 
     <style>
-      :host {
-        --github-corner-badge-color-default: #ff006e;
-        --github-corner-octo-color-default: #fff;
-        --github-corner-size-default: 80px;
-      }
-
       svg {
-        fill: var(
-          --github-corner-badge-color,
-          var(--github-corner-badge-color-default)
-        );
-        color: var(
-          --github-corner-octo-color,
-          var(--github-corner-octo-color-default)
-        );
-        width: var(
-          --github-corner-size,
-          var(--github-corner-size-default)
-        );
-        height: var(
-          --github-corner-size,
-          var(--github-corner-size-default)
-        );
+        fill: var(--github-corner-background, #24292E);
+        color: var(--github-corner-color, #FFFFFF);
+        width: var(--github-corner-size, 80px);
+        height: var(--github-corner-size, 80px);
+        z-index: var(--github-corner-z-index, 1);
         position: absolute;
         top: 0;
         border: 0;
@@ -64,18 +47,22 @@
   </template>
 
   <script>
-    Polymer({
-      is: 'github-corner',
-      properties: {
-        href: {
-          type: String,
-          value: '#',
-        },
-        target: {
-          type: String,
-          value: '_blank',
-        }
+    class GithubCorner extends Polymer.Element {
+      static get is() { return 'github-corner'; }
+      static get properties() {
+        return {
+          href: {
+            type: String,
+            value: '#',
+          },
+          target: {
+            type: String,
+            value: '_blank',
+          }
+        };
       }
-    });
+    }
+    
+    window.customElements.define(GithubCorner.is, GithubCorner);
   </script>
 </dom-module>
