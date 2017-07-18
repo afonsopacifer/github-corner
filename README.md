@@ -42,7 +42,6 @@ bower install github-corner --save
 Property  | Type        | Default   | Description
 :---      |:---         |:---       |:---
 `href`    | *String*    | `#`       | Hyperlink reference
-`target`    | *String*    | `_blank`       | [Anchor tag target](https://www.w3schools.com/tags/att_a_target.asp)
 
 ## Styling
 
