@@ -1,10 +1,11 @@
 {
   "name": "github-corner",
   "version": "2.0.0",
-  "description": "A Polymer 2.0 element for github corner",
+  "description": "A Polymer element for github corner",
   "authors": [
     "Afonso Pacifer <afonsopacifer@live.com>"
   ],
+  "license": "MIT",
   "main": "github-corner.html",
   "homepage": "https://github.com/afonsopacifer/github-corner",
   "repository": {
@@ -17,21 +18,16 @@
       "github-corner",
       "web-components"
   ],
-  "license": "https://github.com/afonsopacifer/github-corner/blob/master/LICENSE.md",
+"license": "https://github.com/afonsopacifer/github-corner/blob/master/LICENSE.md",
   "ignore": [
       "**/.*",
       "node_modules",
       "bower_components"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^2.0.0"
+    "polymer": "Polymer/polymer#^1.5.0"
   },
   "devDependencies": {
-    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
-    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
-    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
-  },
-  "resolutions": {
-    "polymer": "^2.0.0"
+    "web-component-tester": "^5.0.0"
   }
 }
